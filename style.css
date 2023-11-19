@@ -338,10 +338,6 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 .footer {
   padding: 1.4rem 7%;
 }
-.footer footer.content {
-  display: flex;
-  justify-content: space-between;
-}
 
 .footer footer.content .left,
 .footer footer.content .mid,
