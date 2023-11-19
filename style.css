@@ -403,9 +403,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
     flex-direction: column;
     width: 100%;
   }
-  .home .content .hero {
-    font-size: 2rem;
-  }
+
   nav .content .logo {
     font-size: 1rem;
     width: 100%;
