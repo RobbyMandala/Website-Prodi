@@ -91,7 +91,7 @@ const start = function () {
       thumbs[2].classList.add("active");
       thumbs[0].style.transform = "scale(1) rotate(-45deg)";
       thumbs[1].style.transform = "scale(1) rotate(-45deg)";
-      thumbs[2].style.transform = "scale(1.2) rotate(-45deg)";
+      thumbs[2].style.transform = "scale(1.5) rotate(-45deg)";
       thumbs[3].style.transform = "scale(1) rotate(-45deg)";
     }
   }, 2000);
@@ -104,7 +104,7 @@ const start = function () {
       thumbs[0].style.transform = "scale(1) rotate(-135deg)";
       thumbs[1].style.transform = "scale(1) rotate(-135deg)";
       thumbs[2].style.transform = "scale(1) rotate(-135deg)";
-      thumbs[3].style.transform = "scale(1.2) rotate(-135deg)";
+      thumbs[3].style.transform = "scale(1.5) rotate(-135deg)";
     }
   }, 4000);
   setTimeout(function () {
@@ -114,7 +114,7 @@ const start = function () {
       thumbs[3].classList.remove("active");
       thumbs[1].classList.add("active");
       thumbs[0].style.transform = "scale(1) rotate(-225deg)";
-      thumbs[1].style.transform = "scale(1.2) rotate(-225deg)";
+      thumbs[1].style.transform = "scale(1.5) rotate(-225deg)";
       thumbs[2].style.transform = "scale(1) rotate(-225deg)";
       thumbs[3].style.transform = "scale(1) rotate(-225deg)";
     }
@@ -125,7 +125,7 @@ const start = function () {
       heroRight.style.transform = "rotate(315deg)";
       thumbs[1].classList.remove("active");
       thumbs[0].classList.add("active");
-      thumbs[0].style.transform = "scale(1.2) rotate(-315deg)";
+      thumbs[0].style.transform = "scale(1.5) rotate(-315deg)";
       thumbs[1].style.transform = "scale(1) rotate(-315deg)";
       thumbs[2].style.transform = "scale(1) rotate(-315deg)";
       thumbs[3].style.transform = "scale(1) rotate(-315deg)";
