@@ -104,9 +104,9 @@ nav .logo .logo-right {
   transform: scale(1.2) rotate(45deg);
 }
 
-.home .content .hero-right.rotate {
-  /* animation: rotate 2s 10s infinite alternate forwards; */
-}
+/* .home .content .hero-right.rotate {
+  animation: rotate 2s 10s infinite alternate forwards;
+} */
 
 /* .home .content .hero-right.rotate1 {
   transform: rotate(45deg);
