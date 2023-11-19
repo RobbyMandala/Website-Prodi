@@ -153,6 +153,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 /* Visi Section Start */
 .visi {
+  min-height: 100vh;
   padding: 1.4rem 7%;
   background-color: #d9d9d9;
 }
@@ -175,8 +176,6 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
   filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.3));
   text-align: center;
   align-items: center;
-  justify-content: center;
-  width: 30%;
 }
 .visi .content1 .con-icon h2 {
   font-family: "Montserrat", sans-serif;
