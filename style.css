@@ -374,7 +374,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 /* Laptop */
 @media (max-width: 1366px) {
   html {
-    font-size: 75%;
+    /* font-size: 75%; */
   }
 }
 
@@ -387,7 +387,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    /* font-size: 65%; */
   }
   nav .nav-nav {
     display: none;
@@ -397,7 +397,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    /* font-size: 55%; */
   }
   .home .content {
     flex-direction: column;
@@ -405,7 +405,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
   }
 
   nav .content .logo {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     width: 100%;
   }
   nav .content .logo img {
