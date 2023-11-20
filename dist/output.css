@@ -901,4 +901,12 @@ ul li {
   .xl\:w-1\/2 {
     width: 50%;
   }
+
+  .xl\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .xl\:pt-44 {
+    padding-top: 11rem;
+  }
 }
