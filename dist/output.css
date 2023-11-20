@@ -944,4 +944,12 @@ ul li {
   .xl\:pt-52 {
     padding-top: 13rem;
   }
+
+  .xl\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .xl\:pb-12 {
+    padding-bottom: 3rem;
+  }
 }
