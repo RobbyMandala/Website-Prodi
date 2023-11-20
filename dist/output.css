@@ -835,6 +835,42 @@ ul li {
   height: 30px;
 }
 
+@media (min-width: 1280px) {
+  .xl\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 640px) {
+    .xl\:container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .xl\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .xl\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .xl\:container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .xl\:container {
+      max-width: 1536px;
+    }
+  }
+}
+
 .focus\:scroll-auto:focus {
   scroll-behavior: auto;
 }
@@ -852,6 +888,28 @@ ul li {
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:w-\[60\%\] {
+    width: 60%;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .max-md\:w-\[70\%\] {
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -937,6 +995,10 @@ ul li {
     width: 40%;
   }
 
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .xl\:pt-40 {
     padding-top: 10rem;
   }
@@ -959,5 +1021,11 @@ ul li {
 
   .xl\:pb-12 {
     padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:justify-between {
+    justify-content: space-between;
   }
 }
