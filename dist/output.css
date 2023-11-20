@@ -940,4 +940,8 @@ ul li {
   .xl\:pt-48 {
     padding-top: 12rem;
   }
+
+  .xl\:pt-52 {
+    padding-top: 13rem;
+  }
 }
