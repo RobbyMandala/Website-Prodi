@@ -356,7 +356,6 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 .footer footer.content .right p {
   padding: 20px;
 }
-
 /* Footer Section End */
 
 /* Media Queries */
@@ -369,7 +368,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 @media (min-width: 1024px) {
   .hero-right .thumb {
-    width: 200px;
+    width: 180px;
   }
 }
 
