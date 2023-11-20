@@ -651,6 +651,10 @@ video {
   align-self: center;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
