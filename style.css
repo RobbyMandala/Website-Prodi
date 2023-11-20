@@ -368,7 +368,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 @media (min-width: 1024px) {
   .hero-right .thumb {
-    width: 180px;
+    width: 150px;
   }
 }
 
