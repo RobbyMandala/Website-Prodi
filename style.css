@@ -89,7 +89,6 @@ nav .logo .logo-right {
   width: 70%;
   transition: transform 2s;
   transform: rotate(-45deg);
-  overflow: hidden;
 }
 
 .home .content .hero-right img.thumb {
