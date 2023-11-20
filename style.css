@@ -86,7 +86,6 @@ nav .logo .logo-right {
 .home .content .hero-right {
   position: relative;
   justify-content: center;
-  width: 70%;
   transition: transform 2s;
   transform: rotate(-45deg);
 }
@@ -367,7 +366,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 @media (min-width: 1024px) {
   .hero-right .thumb {
-    width: 100px;
+    width: 170px;
   }
 }
 

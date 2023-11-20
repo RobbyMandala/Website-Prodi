@@ -896,3 +896,9 @@ ul li {
     line-height: 1.75rem;
   }
 }
+
+@media (min-width: 1280px) {
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+}
