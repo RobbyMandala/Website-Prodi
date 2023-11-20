@@ -606,6 +606,11 @@ video {
   min-height: max-content;
 }
 
+.min-h-min {
+  min-height: -moz-min-content;
+  min-height: min-content;
+}
+
 .w-full {
   width: 100%;
 }
