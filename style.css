@@ -29,7 +29,6 @@ nav .nav-nav {
   display: flex;
   padding: 40px 0 0 0;
   justify-content: space-between;
-  width: 35%;
 }
 nav .navbar-nav {
   display: flex;
@@ -90,6 +89,7 @@ nav .logo .logo-right {
   width: 70%;
   transition: transform 2s;
   transform: rotate(-45deg);
+  overflow: hidden;
 }
 
 .home .content .hero-right img.thumb {
@@ -368,7 +368,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 @media (min-width: 1024px) {
   .hero-right .thumb {
-    width: 150px;
+    width: 100px;
   }
 }
 
