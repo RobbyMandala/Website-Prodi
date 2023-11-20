@@ -22,7 +22,6 @@ nav {
 nav .content {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2%;
 }
 
 nav .nav-nav {
@@ -366,7 +365,13 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 
 @media (min-width: 1024px) {
   .hero-right .thumb {
-    width: 150px;
+    width: 125px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-right .thumb {
+    width: 160px;
   }
 }
 
