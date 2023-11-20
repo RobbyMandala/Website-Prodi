@@ -619,6 +619,10 @@ video {
   min-height: 100%;
 }
 
+.min-h-\[20px\] {
+  min-height: 20px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -931,5 +935,9 @@ ul li {
 
   .xl\:pt-44 {
     padding-top: 11rem;
+  }
+
+  .xl\:pt-48 {
+    padding-top: 12rem;
   }
 }
