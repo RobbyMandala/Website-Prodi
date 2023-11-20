@@ -90,7 +90,7 @@ nav .logo .logo-right {
 }
 
 .home .content .hero-right img.thumb {
-  margin: 3rem;
+  margin: 2rem;
   transition: transform 2s;
   transform: scale(1) rotate(45deg);
 }
