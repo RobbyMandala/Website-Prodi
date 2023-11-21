@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --bg: #6b9fe9;
+}
+
+/* Header Start */
+
+/* Navbar Start */
+nav {
+  background-color: var(--bg);
+  padding: 1rem 2%;
+  padding-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  margin: 0 auto;
+  flex-direction: column;
+}
+nav .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2%;
+}
+
+nav .nav-nav {
+  display: flex;
+  padding: 40px 0 0 0;
+  justify-content: space-between;
+  width: 35%;
+}
+nav .navbar-nav {
+  display: flex;
+  gap: 30px;
+}
+nav .navbar-nav a {
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+}
+nav .navbar-extra {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav .navbar-extra a {
+  color: #ffffff;
+}
+
+nav .logo .logo-right {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.logo-stp ul {
+  padding-left: 1rem;
+}
+
+.logo-stp ul li {
+  color: #ffffff;
+}
+/* Navbar End */
+
+/* Header End */
+
+/* Berita Section Start */
+.berita {
+  padding: 1.4rem 7%;
+  display: flex;
+  justify-content: center;
+  padding-top: calc(8rem * 2);
+  padding-bottom: calc(2rem * 2);
+  width: 100%;
+}
+.berita .kotak {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  border-radius: 0 0 20px 20px;
+}
+.berita .kotak .text {
+  padding: 10px;
+}
+.berita .kotak .text h2 {
+  padding-top: 30px;
+}
+.berita .kotak .text h3 {
+  padding-top: 10px;
+}
+.berita .kotak .text > p {
+  padding-top: 30px;
+}
+/* Berita Section End */
+
+/* Footer Section Start */
+.footer {
+  padding: 1.4rem 7%;
+}
+
+.footer footer.content .left,
+.footer footer.content .mid,
+.footer footer.content .right {
+  display: flex;
+}
+.footer footer.content .left {
+  align-items: center;
+}
+.footer footer.content .left ul {
+  color: #ffffff;
+  padding-left: 20px;
+}
+.footer footer.content .mid,
+.footer footer.content .right {
+  flex-direction: column;
+}
+.footer footer.content .mid p,
+.footer footer.content .right p {
+  padding: 20px;
+}
+/* Footer Section End */
