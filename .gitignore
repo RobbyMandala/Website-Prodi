@@ -5,3 +5,9 @@ css/
 export.scss
 export/
 *.exe
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
