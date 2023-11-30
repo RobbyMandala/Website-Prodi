@@ -104,6 +104,23 @@ nav .logo .logo-right {
 }
 /* Berita Section End */
 
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 160px;
+  margin: auto;
+}
+.pagination p {
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
 /* Footer Section Start */
 .footer {
   padding: 1.4rem 7%;
