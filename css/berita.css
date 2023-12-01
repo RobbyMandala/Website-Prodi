@@ -22,18 +22,16 @@ nav {
 nav .content {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2%;
 }
 
 nav .nav-nav {
   display: flex;
-  padding: 40px 0 0 0;
+  padding-top: 40px;
   justify-content: space-between;
-  width: 35%;
 }
 nav .navbar-nav {
-  display: flex;
   gap: 30px;
+  transition: 0.5s;
 }
 nav .navbar-nav a {
   color: #ffffff;
@@ -88,7 +86,7 @@ nav .logo .logo-right {
   flex-direction: column;
   background-color: #d9d9d9;
   border-radius: 0 0 20px 20px;
-  width: 17%;
+  /* width: 17%; */
 }
 .berita .kotak .text {
   padding: 10px;
@@ -147,3 +145,84 @@ nav .logo .logo-right {
   padding: 20px;
 }
 /* Footer Section End */
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-right .thumb {
+    width: 125px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-right .thumb {
+    width: 160px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  nav .nav-nav {
+    width: auto;
+  }
+
+  nav .navbar-nav {
+    display: block;
+  }
+
+  nav .navbar-nav a {
+    display: block;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  nav .navbar-nav.active {
+    display: block;
+    right: -1rem;
+  }
+
+  nav .navbar-nav.active a {
+    display: block;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  nav .navbar-nav.active a:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .home .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav .content .logo {
+    width: 100%;
+  }
+  nav .content .logo img {
+    width: 50px;
+  }
+}
