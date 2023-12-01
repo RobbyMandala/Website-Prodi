@@ -233,7 +233,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
   border-radius: 20px 0px 0px 20px;
 }
 .visi .content2 .con-icon .icon {
-  margin-right: 25px;
+  /* margin-right: 3%; */
 }
 .visi .content2 .con-icon .text {
   display: flex;
@@ -246,7 +246,7 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
 }
 .visi .content2 .con-icon .text p {
   font-size: 1.4rem;
-  width: 100%;
+  /* width: 100%; */
 }
 /* Visi Section End */
 
