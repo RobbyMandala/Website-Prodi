@@ -8,6 +8,9 @@ module.exports = {
         dark: "#001C30",
         dark_2: "#2D4356",
       },
+      fontFamily: {
+        inter: ["Inter"],
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
