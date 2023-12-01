@@ -1067,6 +1067,10 @@ ul li {
     justify-content: center;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:p-0 {
     padding: 0px;
   }
