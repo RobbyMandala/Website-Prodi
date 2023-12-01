@@ -25,14 +25,16 @@ nav .content {
 
 nav .nav-nav {
   display: flex;
-  padding: 40px 0 0 0;
+  padding-top: 40px;
   justify-content: space-between;
-  width: 35%;
+  width: 40%;
 }
 nav .navbar-nav {
   display: flex;
   gap: 30px;
+  transition: 0.5s;
 }
+
 nav .navbar-nav a {
   color: #ffffff;
   font-family: "Inter";
@@ -64,6 +66,10 @@ nav .logo .logo-right {
 
 .logo-stp ul li {
   color: #ffffff;
+}
+
+#hamburger-menu {
+  display: none;
 }
 /* Navbar End */
 
@@ -378,8 +384,41 @@ text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.48); */
   html {
     font-size: 65%;
   }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
   nav .nav-nav {
-    display: none;
+    width: auto;
+  }
+
+  nav .navbar-nav {
+    display: block;
+  }
+
+  nav .navbar-nav a {
+    display: block;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  nav .navbar-nav.active {
+    display: block;
+    right: -1rem;
+  }
+
+  nav .navbar-nav.active a {
+    display: block;
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  nav .navbar-nav.active a:hover {
+    background-color: white;
+    color: black;
   }
 }
 

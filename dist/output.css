@@ -576,6 +576,14 @@ video {
   position: relative;
 }
 
+.-right-\[400\%\] {
+  right: -400%;
+}
+
+.top-\[calc\(100\%\+7px\)\] {
+  top: calc(100% + 7px);
+}
+
 .m-5 {
   margin: 1.25rem;
 }
@@ -592,6 +600,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -604,28 +620,24 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-2 {
-  width: 0.5rem;
+.h-\[100vh\] {
+  height: 100vh;
 }
 
 .w-\[100px\] {
   width: 100px;
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.w-\[30rem\] {
+  width: 30rem;
 }
 
-.flex-row-reverse {
-  flex-direction: row-reverse;
+.w-full {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -640,16 +652,16 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .self-center {
@@ -664,20 +676,12 @@ video {
   scroll-behavior: smooth;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-\[20px\] {
   border-radius: 20px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-t {
@@ -689,33 +693,22 @@ video {
   border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-slate-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-1 {
-  padding: 0.25rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-4 {
@@ -726,21 +719,6 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pb-10 {
@@ -940,6 +918,16 @@ ul li {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media not all and (min-width: 768px) {
+  .max-md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .max-md\:flex-col {
+    flex-direction: column;
+  }
+}
+
 @media not all and (min-width: 640px) {
   .max-sm\:mb-10 {
     margin-bottom: 2.5rem;
@@ -951,12 +939,64 @@ ul li {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:relative {
+    position: relative;
+  }
+
+  .md\:-right-\[400\%\] {
+    right: -400%;
+  }
+
+  .md\:top-\[calc\(100\%\+7px\)\] {
+    top: calc(100% + 7px);
+  }
+
+  .md\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .md\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:static {
+    position: static;
+  }
+
+  .lg\:relative {
+    position: relative;
+  }
+
+  .lg\:-right-0 {
+    right: -0px;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -967,8 +1007,24 @@ ul li {
     margin-bottom: 2rem;
   }
 
+  .lg\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .lg\:mr-8 {
+    margin-right: 2rem;
+  }
+
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-0 {
+    height: 0px;
+  }
+
+  .lg\:h-auto {
+    height: auto;
   }
 
   .lg\:w-1\/2 {
@@ -987,6 +1043,14 @@ ul li {
     width: 70%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1001,10 +1065,6 @@ ul li {
 
   .lg\:justify-center {
     justify-content: center;
-  }
-
-  .lg\:justify-items-end {
-    justify-items: end;
   }
 
   .lg\:p-0 {

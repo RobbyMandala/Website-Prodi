@@ -25,7 +25,11 @@
         <div class="content pb-2">
           <div class="logo flex items-center">
             <a href="#" class="logo-stp flex items-center">
-              <img src="img/Lambang_UIN_Raden_Intan_Lampung 1.png" alt="" class="uin" />
+              <img
+                src="img/Lambang_UIN_Raden_Intan_Lampung 1.png"
+                alt="uin"
+                class="uin max-md:w-[30%]"
+              />
               <ul class="text-lg w-full">
                 <li>PROGRAM STUDI</li>
                 <li>SISTEM INFORMASI</li>
@@ -33,21 +37,26 @@
               </ul>
             </a>
           </div>
-          <div class="nav-nav">
-            <div class="navbar-nav">
+          <div class="nav-nav md:relative">
+            <div
+              class="navbar-nav md:flex-col md:absolute bg-black md:bg-transparent md:w-[30rem] md:h-[100vh] md:top-[calc(100%+7px)] md:-right-[400%] lg:w-auto lg:right-0 lg:top-0 lg:h-auto lg:flex-row lg:static"
+            >
               <a href="index.html">Profil</a>
               <a href="berita.html">Berita</a>
               <a href="#kompetensi">Kompetensi</a>
             </div>
-            <ul>
-              <li class="flex items-center pl-8 pr-8">
-                <input type="checkbox" class="hidden" id="dark-toggle" />
-                <label for="dark-toggle">
-                  <i
-                    data-feather="moon"
-                    class="toggle-circle rounded-full cursor-pointer transition duration-300 ease-in-out"
-                  ></i>
-                </label>
+            <ul class="flex lg:mr-8">
+              <li class="flex items-center px-4 justify-around">
+                <div class="mr-2">
+                  <input type="checkbox" class="hidden" id="dark-toggle" />
+                  <label for="dark-toggle">
+                    <i
+                      data-feather="moon"
+                      class="toggle-circle rounded-full cursor-pointer transition duration-300 ease-in-out"
+                    ></i>
+                  </label>
+                </div>
+                <a href="#" id="hamburger-menu" class="ml-2"><i data-feather="menu"></i></a>
               </li>
             </ul>
           </div>
